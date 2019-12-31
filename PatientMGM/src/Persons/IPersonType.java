@@ -1,4 +1,4 @@
-package Persons;
+package PatientMGM.src.Persons;
 
 public interface IPersonType {
 
