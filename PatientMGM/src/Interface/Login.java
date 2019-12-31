@@ -14,6 +14,7 @@ public class Login {
     private JTextField txtPassword;
     private JLabel lblPassword;
     private JButton btnClear;
+    private JPasswordField txtPassField;
 
 
     //Learning how to interact with buttons!
@@ -36,7 +37,7 @@ public class Login {
                 //Display Message ---> Used to test button click event works
                 //JOptionPane.showMessageDialog(null,"Hello world");
                 String userName = txtUsername.getText();
-                String password = txtPassword.getText();
+                String password = txtPassField.getText();
 
                 //Hardcoded entry for TEST purposes, this is NOT TO be used once txt is in place!
 
@@ -55,7 +56,7 @@ public class Login {
             @Override
             public void actionPerformed(ActionEvent e) {
                 txtUsername.setText("");
-                txtPassword.setText("");
+                txtPassField.setText("");
             }
         });
 
