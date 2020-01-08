@@ -1,4 +1,4 @@
-package PatientMGM.src.Persons;
+package Persons.Admin;
 
 public class Administrator {
 }
