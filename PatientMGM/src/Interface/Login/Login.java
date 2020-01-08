@@ -1,10 +1,10 @@
-package PatientMGM.src.Interface;
+package Interface.Login;
 
 import javax.swing.*;
-import java.awt.event.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
+import Interface.AdminUI.Admin_AddUser;
+
 
 public class Login {
     private JButton btnLogin;
@@ -32,9 +32,10 @@ public class Login {
     public Login() {
         //AcitonListener = On Mouse Click
         btnLogin.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Display Message ---> Used to test button click event works
+               //Display Message ---> Used to test button click event works
                 //JOptionPane.showMessageDialog(null,"Hello world");
                 String userName = txtUsername.getText();
                 String password = txtPassField.getText();
@@ -43,12 +44,26 @@ public class Login {
 
                 if (userName.trim().equals("admin") && password.trim().equals("admin")) {
                     JOptionPane.showMessageDialog(null,"Hello" + " " + userName);
+
+
+                    JFrame frame2 = new JFrame("Add User");
+                    frame2.setContentPane(new Admin_AddUser().panel1);
+                    frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    frame2.pack();
+                    frame2.setVisible(true);
+
+
+
+
                 } else  {
                     JOptionPane.showMessageDialog(null,"Invalid User");
                 }
                 //username = txtUsername;
                 //password = txtPassword;
 
+
+        //  File loginData = new File("login.txt");
+        //  boolean userNotFound = false;
 
             }
         });

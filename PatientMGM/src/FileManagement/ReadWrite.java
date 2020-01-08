@@ -7,7 +7,7 @@ public class ReadWrite {
 
 
 
-    protected void open() {
+    public void openFile() {
         try {
             FileReader loginFile = new FileReader("Login.json");
         } catch (FileNotFoundException e) {
