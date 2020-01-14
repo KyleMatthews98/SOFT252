@@ -1,7 +1,7 @@
 Throughout my program there are many different errors, or things that aren't errors, but aren't working as intended.
 
 Issue 1: Lack of completion, due to my own poor time management, I have not given this my best attempt. Attempting this too late, has lead to many features and functions not implemented.
-In order to fix this, I will need to work on this project over a period of time instead of attempting near the deadline... (Working on fixing this!)
+In order to fix this, I will need to work on this project over a period of time instead of attempting near the deadline... (Working on fixing this as I know I can do **soo** much better!)
 
 Issue 2: Admin_AddUser form does not add the password, I beileve this is because password is protected!
 - I also think I can't save to a file properly because it's over writing the current file...

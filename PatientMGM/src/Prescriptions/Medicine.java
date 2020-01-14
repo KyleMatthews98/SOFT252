@@ -1,6 +1,6 @@
 package Prescriptions;
 
-import java.sql.SQLType;
+
 
 public class Medicine {
     String name;

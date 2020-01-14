@@ -8,8 +8,12 @@ External Libraries - gson - 2.8.6 JAR
 
 
 4 Types of Users to manage...
-Doctor
--
+Doctor,
+Admin,
+Secetary,
+Patient
+
+
 **Three Accounts**
 Account 1 -
 
